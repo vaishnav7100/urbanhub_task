@@ -1,0 +1,54 @@
+name: urbanhub_task
+description: Finlot mobile app UI implementation for UrbanHub task.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: TT Fors Trial
+      fonts:
+        - asset: assets/font/tt_fors/TT Fors Trial Thin.ttf
+          weight: 100
+        - asset: assets/font/tt_fors/TT Fors Trial ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/tt_fors/TT Fors Trial Light.ttf
+          weight: 300
+        - asset: assets/font/tt_fors/TT Fors Trial Regular.ttf
+          weight: 400
+        - asset: assets/font/tt_fors/TT Fors Trial Italic.ttf
+          style: italic
+        - asset: assets/font/tt_fors/TT Fors Trial Medium.ttf
+          weight: 500
+        - asset: assets/font/tt_fors/TT Fors Trial DemiBold.ttf
+          weight: 600
+        - asset: assets/font/tt_fors/TT Fors Trial DemiBold Italic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/font/tt_fors/TT Fors Trial Bold.ttf
+          weight: 700
+        - asset: assets/font/tt_fors/TT Fors Trial Bold Italic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/font/tt_fors/TT Fors Trial ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/tt_fors/TT Fors Trial Black.ttf
+          weight: 900
